@@ -342,3 +342,100 @@ Proceso principal
 FinProceso
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Escribir "                                   n.nr4?+nMhnxh..                 ";             
+//Escribir "                                ..J?%!!!!!!`(<!!(*L..                ";           
+//Escribir "                              'd?!!!!!!!!!!!:!!!!!!(M                  ";         
+//Escribir "                             x?!!!!!!!!!!!!!<!!!!!!!!?M                  ";       
+//Escribir "                            r!!!!!!!UU)UUX!!!!~:?!!!!!!*M                  ";     
+//Escribir "                          n=!<!!Xd$$#o$$#?!!!!!!!!!!!!!!!n.                  ";   
+//Escribir "                        xx)!!!!4$$FRP?!!!!!!!!!!!!!!!!!!~<*..                  "; 
+//Escribir "                        M<!<!!!MMM.!!!!!!!!!!!!!!!!!!!X!!<:4                    ";
+//Escribir "                        M!)!!!!?(!!!!!!!:!!!!!!!!!!!!!#$X!:~M                   ";
+//Escribir "                        M!!!!!!!!!!!!<><!?!!!!!!!!!!!!!Ri&!<C                   ";
+//Escribir "                        M!!!!!!!!!~` <!!!!!:!!!!!!~!!!!!$$b!M                   ";
+//Escribir "                        M!\!!!!!!<<:/~::!~<!<'!!!!<!!!!!M?$H4  ....   .....     ";
+//Escribir "                        MX!!!!!.~ ~.xHR!:!!!!!!'!!~!!!!!.M?4M  fh/M   4M@L.     ";
+//Escribir "                        MM!!!!<!!!WM#>:/!<t!!\!!!!`!>!!!X!!<M  >MMh   4tMP      ";
+//Escribir "                         f!!!!!!!\$  %u'?J%!H!!!!!'! !!!:>!!/  MMMM  MXHMXMd2N>     ";
+//Escribir "                        nH!!!!!:!!7Wi$$$$NWP!~!<)R!<!!!!!!\!   !?!M 'k!#XMMdM?>     ";
+//Escribir "                        4X!!!!<!~!h$$$$$$$$R!X>-+)~!!!!!!!HX<  /MM?..XM<MMTMM4r    ";
+//Escribir "                        4M!!<<<!<~/X$$$$$$RU(( 3!~!'!~\X!!M?d  MMM/MMMMMMdM*M>.   ";
+//Escribir "                         'h!<<<~<(<M5$$$$$$B$$$R!` !<?XX~HH)M  MkMM4%M(M(MLM>M?C  ";
+//Escribir "                          PXX<~<`d)Q$$$$$$##9$R!:<<\FfMXM!MMH*<M?MMkMM<XMMMMM3Mh   ";
+//Escribir "                           "M?<<hh9$$$e@$$$$MT~<<:JMM """)d.<<MMWMMMMMM:!MMhHMX)  ";
+//Escribir "                            Mc<<<!~R$$$N@#!` < <n<M*=     ^kh<<=dMi!MMMHx!<</*"    ";
+//Escribir "                            !$$$iL'>!#"`<L"!`n!d<d3        M8x<iMRMH<MM*MkxMh     ";
+//Escribir "                          nh$~$$$$  nnH$MhMMM%CU3C*M<      4X$MM99R!MXMM:/       ";
+//Escribir "                         4Mb$e.$$$ HM"`$ """9$$$$$$$CMJ      M$RRM!<<MMMMJ      ";
+//Escribir "                      nnM!.P$$$$$?#RMMX3. <<<<"$5"  ^$K=     M#$?!<<:?M*<Mr     ";
+//Escribir "                . ....M"<L$$$$Ib$$$#2@88N$$ << $9. < #$MM    3MP$HHMMH~<XM      ";
+//Escribir "                MSb$$"<\$$$$$$X$$W$$$$$$$$F<<< $$RN@R@$Et    JP8^*MMMMMMHC      ";
+//Escribir "              M"*$$$ <<@$$$$$$MP$$$$$$$$$$     R$$$NW$$R\    >~$$NI@MMMd>       ";
+//Escribir "            MM  <$$ <<~$$$$$***"$$$$$$$$$"       $$$$$$!M    .$$$$I$R8x*(       ";
+//Escribir "           MH' z5$    $$$$$2@S:$$$$$$$$         $$$$$$4M    M#$$$$$$$$R>       ";
+//Escribir "            MXM9X$$    $$$$eo$e$$$I$N$$$i        $$$$$$4M    .dWF7$*$$R4>       ";
+//Escribir "            MH$N$$$  .$$$$$$$$$$$$$$$$$$$c      3$$$$$RXM    d$$$MMMMMP*>       ";
+//Escribir "            "M$$$$$ $NdN$$$$3$$$$$$$$$$$$B      '$$$$$N94    "$$$$NM%>"         ";
+//Escribir "              ?$$$l$$$$$$$$$$$$$$$$$$$$$$R    X   "$$$"%M  *M #$$$RMM           ";
+//Escribir "              M$$l$$$$$$$$$$$$$$$RMMMR$$$M    M     $$KxM  M   $$$MxM           ";
+//Escribir "              M$%$$$$$$$d$$$$$$$$MMMMMMMM!   <.      #$hX  M   $$$MM*           ";
+//Escribir "              M$$$$$$$$*"*$$$$$RMMMMMMMMP    hX       "$M  ~  J$$Mx*            ";
+//Escribir "              "J/R$$$Rf<  ^$$$MMMMMMMM9`   iMM\r       "/M"   $$$MM             ";
+//Escribir "               M$?MMMM>    $$$$MxWN@dMMM XMMMX)M        #f    $$R%L             ";
+//Escribir "               M$  ""3k    $$$$$*$$$NQ2N@$$M)  4x             $$MMM             ";
+//Escribir "               *$   %$$   x$$#...` ..  'MMMMH  -*.           $$$PP>             ";
+//Escribir "                R  :'$$L' $$$!    `'   .M!h"n    M           $$MH"              ";
+//Escribir "                f ~  '$$ d$$$       .!` M        '/          $MMh               ";
+//Escribir "                M  '  $$L$$$$e...nnMMMMf"        MHN        <RM^P               ";
+//Escribir "                4     '$K$$$$$$$MMMMM*M>         '"/$       :M!MM               ";
+//Escribir "                dL     $$$$$$$$$$8MMMLM>           M$       H*M=                ";
+//Escribir "                xM     4$#$$$$$$$$M8$$(>           M7L    xM)*'                 ";
+//Escribir "                       '$%$$$$$$$$$$$$$M           *4$  u$MhM                   ";
+//Escribir "                  L    J$$$$$$$$$$$$$$$$t.           hN$$PH                     ";
+//Escribir "                  M    $$$$$$$$$$$$$$$$$$>n          MHRC""                     ";
+//Escribir "                  M    $$$$$$$$$$$$$$$$$$$M..        " ""                       ";
+//Escribir "                  %    $$$$$$$$$$$$$$$$$@$$2>                                   ";
+//Escribir "                 P     $$$$$$$$$$$$$$$$$$$@$HnC                                 ";
+//Escribir "                M~     $$$9$$$$$$$$$E$$$$$$$NP4                                 ";
+//Escribir "              nn)      '$$%$$$$$$$$$R$$$$$$$$$HM.                               ";
+//Escribir "              MM$       #$NR$$$$$$$$X$$$$$$$$$$M? .                             ";
+//Escribir "              M)$       x$$K$$$$$$$$?$$$$$$$$$$$MhM                             ";
+//Escribir "              M$$       Mb$$4$$$$$$$33$$$$$$$$$$NMLhx                           ";
+//Escribir "              M$$      :P>N$$G$$$$$$$N$$$$$$$$$$$$M M                           ";
+//Escribir "              M$$      M "!R$$*$$$$$$$$$$$$$$$$$$$~ /:                          ";
+//Escribir "              f$F     xr  /HRRNB$$$$$$f$$$$$$$$$$$  M4M                         ";
+//Escribir "              d$"    .)\ 4!(?R*$$$$$$&$$$$$$$$$$$  dMHM                         ";
+//Escribir "            dP$$     M  nMt)xX$$@$$$$$2$$$$$$$$$  z$MMf                         ";
+//Escribir "           Md$$    :M  M)4MMMXR$B$$$$M9$$$$$$$> .$$RMMMM                       ";
+//Escribir "            M$$~    MC  M%MMMMX97NR$$$M9$$$$$$P  $$$$MM?M                       ";
+//Escribir "          ..3$$$.  .h-  MX9MMMMM?X$$$$M8$$$$$$  $$$$$MM~M                       ";
+//Escribir "          JM$$$RMh M    PCXMMMMMMXxRRMM$$$$$$F x$$$$$MM 4                       ";
+//Escribir "        M3NW$$$MMMJM    JhhMRMMMMH9?!*M9$$$$$  $$$$$$M" H                       ";
+//Escribir "       C3$$$$$*$$RMM   .RMMMMMMMHMMP)H!9$$$$$e$$$$$$$` JMMM                     ";
+//Escribir "      'M$$<<~?*$$etM  nd4MMMMMMMMXHHH!X8$$$$$$$$$$$$   MMM"                     ";
+//Escribir "      '*M)Ri><<$$$\*  MktXMMMMMMMMM!MH9$$$$$$$$$$$$" .MMMM.                     ";
+//Escribir "        4?bMHRm$$$M'  M3MMMMMMMMMHM9XMM$$$$$$$$$$$F :MMMMtM                        ";
+//Escribir "      Mn9$$$$MMM**    MWMXMMMMMMMMMMXhP$$$$$$$$$$$  RMMMM4M                     ";
+//Escribir "    .nt@$$$$$M?M""    MRHMMMMMMMMMMMXSM$$$$$$$$$$  @MMMMM4M                     ";
+//Escribir "  .n*$$$$$$$$E#4      MRMMMMMMMMMMMMS*H$$$$$$$$$` d$MMMMM4M                     ";
+//Escribir ". MQ$$$$$$$$%XM/      MRMMMMMMMMMMMMhXk$$$$$$$$F  $$MMMMM4M             ";        
+//Escribir "Mt@$$$#$$$$3H"        MMMMMMMMMMMMMMPEM$$$$$$$$$e$$MMMMMM4M               ";      
+//Escribir "M$$$#>!d$$PM          MMMMMMMMMMMMMM@HM$$$$$$$$$$$$MMMMMMXM    ";
