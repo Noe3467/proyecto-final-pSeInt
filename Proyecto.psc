@@ -3,9 +3,16 @@ SubProceso saludar(nombre Por Referencia)
 	//
 	// Este sub proceso se encargara de la bienvenida inicial del usuario
 	// Solicita su nombre y lo almacena en la variable "nombre"
-	Escribir "por favor, ingresá tu nombre";
+	Escribir "****************************************************************";
+	Escribir "";
+	Escribir "por favor, ingres� tu nombre";
 	Leer nombre;
-	Escribir "HOLA ", Mayusculas(nombre), "! Bienvenid@ a nuestro centro de belleza y spa";
+	Escribir "****************************************************************";
+	Escribir "";
+	Escribir "HOLA ", Mayusculas(nombre), "!! Bienvenid@ a nuestro centro de Belleza y Spa !!";
+	Escribir "";
+	Escribir "****************************************************************";
+	Escribir "";
 FinSubProceso
 
 
@@ -19,17 +26,28 @@ SubProceso pedirTurno (tpoMsj, nombre, abril, tTarde, tManana, tpoMasaje Por Ref
 	Definir selector, horario Como Entero;
 	Escribir "";
 	Repetir
-		Escribir "Elegí en que horario te gustaría atenderte. ";
-		Escribir "------------- Turno Mañana -------------";
-		Escribir "-->>ingresá 1 para el primer turno (8 a 10hs)";
-		Escribir "-->>ingresá 2 para el segundo turno (10 a 12hs)";
+		Escribir "****************************************************************";
+		Escribir "";
+		Escribir "Eleg� en que horario te gustar�a atenderte. ";
+		Escribir "----------------------------------------------------------------";
+		Escribir "";
+		Escribir "------------- Turno Ma�ana -------------";
+		Escribir "";
+		Escribir "-->>ingres� 1 para el primer turno (8 a 10hs)";
+		Escribir "";
+		Escribir "-->>ingres� 2 para el segundo turno (10 a 12hs)";
 		Escribir "";
 		Escribir  "------------- Turno Tarde -------------";
-		Escribir"-->>ingresá 3 para el primer turno (13 a 15hs)";
-		Escribir "-->>ingresá 4 para el segundo turno (15 a 17hs)";
-		Escribir "-->>ingresá 5 para el segundo turno (17 a 19hs)";
+		Escribir "";
+		Escribir"-->>Ingres� 3 para el primer turno (13 a 15hs)";
+		Escribir "";
+		Escribir "-->>Ingres� 4 para el segundo turno (15 a 17hs)";
+		Escribir "";
+		Escribir "-->>Ingres� 5 para el segundo turno (17 a 19hs)";
 		Escribir "";
 		Escribir "-->>Ingresa 0 para salir";
+		Escribir "";
+		Escribir "****************************************************************";
 		Leer horario;
 	Hasta Que horario = 1 o horario = 2 o horario = 3 o horario = 4 o horario = 5;
 	confirmarFecha(horario, tpoMsj, nombre, abril, tTarde, tManana, tpoMasaje);
@@ -39,7 +57,7 @@ FinSubProceso
 
 SubProceso confirmarFecha(horario, tpoMsj, nombre, abril, tTarde, tManana, tpoMasaje Por Referencia)
 	Definir dia,i Como Entero;
-	Definir turno Como caracter;// utilizaremos esta variable para convertir el horario en cadena ej: HORARIO = 1 entonces turno = mañana 10hs.
+	Definir turno Como caracter;// utilizaremos esta variable para convertir el horario en cadena ej: HORARIO = 1 entonces turno = ma�ana 10hs.
 	dia<-0;
 	Escribir "";
 	Repetir // lanzaremos un repetir para permitir seleccionar el dia segun horario seleccionado anteriormente
@@ -70,16 +88,16 @@ SubProceso confirmarFecha(horario, tpoMsj, nombre, abril, tTarde, tManana, tpoMa
 		//Dependiendo del horario sera el turno visualizado
 		// con esto convertimos el horario (1,2,3,4,5) en una cadena 
 		// y tambien aprobecharemos para almacenar el nombre del cliente en el arreglo correspondiente por ejemplo:
-		// Cliente : Pepe, Dia: 2, Horario : Mañana, Turno : turno 1 mañana
+		// Cliente : Pepe, Dia: 2, Horario : Ma�ana, Turno : turno 1 ma�ana
 		//Va a ser guardado en el arreglo tManana[Dia,Turno]=Nombre   tManana[2,1]= "Pepe"
 		Si (horario = 1) o (horario = 2) Entonces
 			//Dependiendo del horario sera el arreglo utilizado 1,2 tManana
-			tManana[dia,horario]<-nombre; // array turno mañana
+			tManana[dia,horario]<-nombre; // array turno ma�ana
 			Si horario = 1 Entonces
-				turno <- "Mañana de 8-10hs";
-				turno <- "Mañana de 8-10hs";
+				turno <- "Ma�ana de 8-10hs";
+				turno <- "Ma�ana de 8-10hs";
 			SiNo
-				turno <- "Mañana de 10-12hs";
+				turno <- "Ma�ana de 10-12hs";
 			FinSi
 		SiNo
 			//3,4,5 tTarde
@@ -98,11 +116,18 @@ SubProceso confirmarFecha(horario, tpoMsj, nombre, abril, tTarde, tManana, tpoMa
 		
 		//Damos por finalizada la carga de datos
 		// Y se los mostramos al usuario
+		Escribir "****************************************************************";
 		Escribir "";
-		Escribir "¡Felicitaciones! Su reserva ya se ha realizado";
+		Escribir "�Felicitaciones! Su reserva ya se ha realizado";
+		Escribir "----------------------------------------------------------------";
+		Escribir "";
 		Escribir "Para el dia: ",abril[dia];
+		Escribir "";
 		Escribir "En el turno: ",turno;
+		Escribir "";
 		Escribir "Tipo de Masaje: ",tpoMsj;
+		Escribir "";
+		Escribir "****************************************************************";
 	FinSi
 FinSubProceso
 
@@ -111,7 +136,7 @@ SubProceso menuAdmin(nombre, abril, tTarde, tManana, tpoMasaje,tpoMje Por Refere
 	Definir select,i,contador Como Entero;
 	Definir password Como Caracter;
 	Repetir
-		Escribir  "Digite su contraseña";
+		Escribir  "Digite su contrase�a";
 		Escribir "0 - Salir";
 		Leer password;
 		Si password <> "12345" o password <> "0" Entonces
@@ -148,12 +173,19 @@ SubProceso menu(nombre, abril, tTarde, tManana, tpoMasaje Por Referencia)
 	DEfinir opcion, horario como entero;
 	Definir tpoMsj Como caracter;
 	definir precio, descuento como real;
-		Escribir "ingresá la opción deseada.";
+		Escribir "****************************************************************";
+		Escribir                "Ingres� la opci�n deseada.";
+		Escribir "------------------------------------------------------------------";
 		Escribir "";
-		Escribir "1° MASAJES DESCONTRACTURANTES - $1500";
-		Escribir "2° MASAJES TERAPÉUTICOS - $2000";
-		Escribir "3° MASAJES CONVENCIONALES - $1200";
-		Escribir "4° SALIR";
+		Escribir "1� MASAJES DESCONTRACTURANTES - $1500";
+		Escribir "";
+		Escribir "2� MASAJES TERAP�UTICOS - $2000";
+		Escribir "";
+		Escribir "3� MASAJES CONVENCIONALES - $1200";
+		Escribir "";
+		Escribir "4� SALIR";
+		Escribir "";
+		Escribir "****************************************************************";
 		Leer opcion;
 		Escribir "";
 		Segun opcion Hacer
@@ -163,8 +195,8 @@ SubProceso menu(nombre, abril, tTarde, tManana, tpoMasaje Por Referencia)
 				pedirTurno(tpoMsj, nombre, abril, tTarde, tManana, tpoMasaje);
 				Escribir "";
 			2:
-				Escribir "elegiste `masajes terápeuticos`, debes confirmar el horario.";
-				tpoMsj<-"masajes terápeuticos  - $2000";
+				Escribir "elegiste `masajes ter�peuticos`, debes confirmar el horario.";
+				tpoMsj<-"masajes ter�peuticos  - $2000";
 				pedirTurno(tpoMsj, nombre, abril, tTarde, tManana, tpoMasaje);
 				Escribir "";
 			3:
@@ -173,10 +205,10 @@ SubProceso menu(nombre, abril, tTarde, tManana, tpoMasaje Por Referencia)
 				pedirTurno(tpoMsj, nombre, abril, tTarde, tManana, tpoMasaje);
 				Escribir "";
 			4:
-				Escribir "Elegiste la opción de SALIR";
+				Escribir "Elegiste la opci�n de SALIR";
 				Escribir "";
 			De Otro Modo:
-				Escribir "Se equivocó de opción de menú, volver a elegir opciones";
+				Escribir "Se equivoc� de opci�n de men�, volver a elegir opciones";
 					menu(nombre, abril, tTarde, tManana, tpoMasaje);
 		FinSegun
 		
@@ -186,7 +218,7 @@ Proceso principal
 	// Utilizaremos arreglos para almacenar los datos introducidos pr el cliente
 	// Y clasificaremos los datos de la siguiente manera:
 	// Abril: Dias habiles del mes
-	// tManana : Horarios habiles turno mañana asignados a un dia y un cliente Ej: Tmanana[DIA,TURNO] = "Nombre ClienteX"
+	// tManana : Horarios habiles turno ma�ana asignados a un dia y un cliente Ej: Tmanana[DIA,TURNO] = "Nombre ClienteX"
 	// tTarde : horarios habiles turno tarde asignados a un dia y un cliente Ej: tTarde[DIA,TURNO] = "Nombre ClienteX"
 	
 	Definir abril,i como entero;
@@ -241,10 +273,19 @@ Proceso principal
 	
 	Repetir
 		//Ofrecemos los modos de uso del programa 
-		Escribir "Selecciona el modo de uso :";
-		Escribir "1 - Modo Cliente (Ventas y reservas de turnos)";
-		Escribir "2 - Modo Administracion (Consulta de turnos)";
-		Escribir "0 - Cerrar Sesion (Borrado de turnos)";
+		Escribir "****************************************************************";
+		Escribir                 "Selecciona el modo de uso :";
+		Escribir "------------------------------------------------------------------";
+		Escribir "";
+		Escribir         "1 - Modo Cliente (Ventas y reservas de turnos)";
+		Escribir "";
+		Escribir         "2 - Modo Administracion (Consulta de turnos)";
+		Escribir "";
+		Escribir         "0 - Cerrar Sesion (Borrado de turnos)";
+		Escribir "";
+		Escribir "******************************************************************";
+		Escribir "";
+		
 		Leer selector;
 		//Lanzamos el sub proceso que corresponda segun la opcion seleccionada
 		Si selector = 1 Entonces
