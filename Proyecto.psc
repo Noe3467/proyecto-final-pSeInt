@@ -59,9 +59,13 @@ SubProceso confirmarFecha(horario, tpoMsj, nombre, abril, tTarde, tManana, tpoMa
 	Definir dia,i Como Entero;
 	Definir turno Como caracter;// utilizaremos esta variable para convertir el horario en cadena ej: HORARIO = 1 entonces turno = ma�ana 10hs.
 	dia<-0;
+	Escribir "****************************************************************";
 	Escribir "";
 	Repetir // lanzaremos un repetir para permitir seleccionar el dia segun horario seleccionado anteriormente
+		Escribir "****************************************************************";
+		Escribir "";
 		Escribir "Selecciona el dia para tu turno (Solo figuran dias habiles)";
+		Escribir "";
 		//Recorreremos el array para comprobar que los dias que vamos a mostrar tienen disponible el turno en ese horario
 		Para i<-1 Hasta 15 Con Paso 1 Hacer
 			Si (horario = 1) o (horario = 2) y (tManana[i,horario] = "libre") Entonces
@@ -119,6 +123,7 @@ SubProceso confirmarFecha(horario, tpoMsj, nombre, abril, tTarde, tManana, tpoMa
 		Escribir "****************************************************************";
 		Escribir "";
 		Escribir "�Felicitaciones! Su reserva ya se ha realizado";
+		Escribir "";
 		Escribir "----------------------------------------------------------------";
 		Escribir "";
 		Escribir "Para el dia: ",abril[dia];
@@ -147,17 +152,31 @@ SubProceso menuAdmin(nombre, abril, tTarde, tManana, tpoMasaje,tpoMje Por Refere
 		FinSi
 		Si password = "12345" Entonces
 			contador<-1;
-			Escribir "bienvenid@ *", nombre, "* a la consola de administracion";
-			Escribir "donde podras consultar los turnos asignados por tus clientes";
+			Escribir "****************************************************************";
+			Escribir "";
+			Escribir "Bienvenid@ *", nombre, "* a la consola de administracion";
+			Escribir "";
+			Escribir "Donde podras consultar los turnos asignados por tus clientes";
+			Escribir "";
+			Escribir "------------------------------------------------------------------";
 			Escribir "";
 			Escribir "Selecciona la opcion :";
+			Escribir "";
 			Escribir "1 - Consulta de turnos";
+			Escribir "";
 			Escribir "0 - Salir";
+			Escribir "";
+			Escribir "****************************************************************";
 			Leer select;
 			Si select = 1 Entonces
 				Para i<-1 Hasta 15 Con Paso 1 Hacer
+					Escribir "****************************************************************";
+					Escribir "";
 					Escribir "| DIA | TurnoM 1 | TurnoM 2 | TurnoT 1 | TurnoT 2 | TurnoT 3 |";
+					Escribir "";
 					Escribir "| ",abril[i]," | ",tmanana[i,1]," | ",tmanana[i,2]," | ",tTarde[i,3]," | ",tTarde[i,4]," | ",tTarde[i,5]," | ";
+					Escribir "";
+					Escribir "****************************************************************";
 				FinPara
 			SiNo
 				Si select = 0 Entonces
@@ -190,17 +209,17 @@ SubProceso menu(nombre, abril, tTarde, tManana, tpoMasaje Por Referencia)
 		Escribir "";
 		Segun opcion Hacer
 			1:
-				Escribir "elegiste `masajes descontracturantes`, debes confirmar el horario.";
+				Escribir "Elegiste `masajes descontracturantes`, debes confirmar el horario.";
 				tpoMsj<-"masajes descontracturantes - $1500";
 				pedirTurno(tpoMsj, nombre, abril, tTarde, tManana, tpoMasaje);
 				Escribir "";
 			2:
-				Escribir "elegiste `masajes ter�peuticos`, debes confirmar el horario.";
+				Escribir "Elegiste `masajes ter�peuticos`, debes confirmar el horario.";
 				tpoMsj<-"masajes ter�peuticos  - $2000";
 				pedirTurno(tpoMsj, nombre, abril, tTarde, tManana, tpoMasaje);
 				Escribir "";
 			3:
-				Escribir "elegiste `masajes convencionales`, debes confirmar el horario.";
+				Escribir "Elegiste `masajes convencionales`, debes confirmar el horario.";
 				tpoMsj<-"masajes convencionales  - $1200";
 				pedirTurno(tpoMsj, nombre, abril, tTarde, tManana, tpoMasaje);
 				Escribir "";
@@ -208,7 +227,7 @@ SubProceso menu(nombre, abril, tTarde, tManana, tpoMasaje Por Referencia)
 				Escribir "Elegiste la opci�n de SALIR";
 				Escribir "";
 			De Otro Modo:
-				Escribir "Se equivoc� de opci�n de men�, volver a elegir opciones";
+				Escribir "Se equivoc� de opci�n de men�, volver a elegir una opcion";
 					menu(nombre, abril, tTarde, tManana, tpoMasaje);
 		FinSegun
 		
@@ -275,7 +294,7 @@ Proceso principal
 		//Ofrecemos los modos de uso del programa 
 		Escribir "****************************************************************";
 		Escribir                 "Selecciona el modo de uso :";
-		Escribir "------------------------------------------------------------------";
+		Escribir "----------------------------------------------------------------";
 		Escribir "";
 		Escribir         "1 - Modo Cliente (Ventas y reservas de turnos)";
 		Escribir "";
